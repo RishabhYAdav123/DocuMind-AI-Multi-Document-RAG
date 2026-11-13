@@ -1,0 +1,12 @@
+{
+  "recall_at_k": 1.0,
+  "hit_at_k": 1.0,
+  "reciprocal_rank": 0.9761904761904762,
+  "embedding": "sentence",
+  "live": false,
+  "questions": 25,
+  "retrieval_cases": 21,
+  "chunks": 9,
+  "top_k": 5,
+  "threshold": 0.3
+}

@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-11-13T15:46:10.016022+00:00",
+  "provider": "gemini",
+  "configured_model": "gemini-3.5-flash-lite",
+  "credential_present": true,
+  "model_access": "passed",
+  "structured_generation": "passed",
+  "returned_model": "models/gemini-3.5-flash-lite"
+}

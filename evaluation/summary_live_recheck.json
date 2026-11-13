@@ -1,0 +1,21 @@
+{
+  "recall_at_k": 1.0,
+  "hit_at_k": 1.0,
+  "reciprocal_rank": 1.0,
+  "embedding": "sentence",
+  "live": true,
+  "questions": 1,
+  "retrieval_cases": 1,
+  "chunks": 9,
+  "top_k": 5,
+  "threshold": 0.3,
+  "executed_at": "2026-11-13T15:57:45.946067+00:00",
+  "model": "gemini-3.5-flash-lite",
+  "answer_status_counts": {
+    "answered": 1
+  },
+  "citation_validity": 1.0,
+  "citation_validity_cases": 1,
+  "unanswerable_correct": null,
+  "unanswerable_correct_cases": 0
+}

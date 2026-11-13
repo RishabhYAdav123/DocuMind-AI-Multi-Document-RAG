@@ -1,0 +1,12 @@
+:root { color-scheme: dark; }
+.stApp { background: radial-gradient(ellipse at top right, #172646 0, #0c1424 52%); }
+[data-testid="stSidebar"] { background: #101b2d; border-right: 1px solid #26354d; }
+.block-container { max-width: 1200px; padding-top: 2.5rem; padding-bottom: 2rem; }
+h1 { letter-spacing: -0.04em; font-weight: 750 !important; }
+h3 { color: #a9baff !important; }
+[data-testid="stMetric"] { background: #152238; border: 1px solid #293c58; border-radius: 14px; padding: 18px; }
+[data-testid="stMetricLabel"] { color: #a9bbd2; }
+[data-testid="stChatMessage"] { background: #16243a; border: 1px solid #2c3b52; border-radius: 15px; margin: 12px 0; }
+.stButton button { border-radius: 9px; }
+[data-testid="stExpander"] { border-radius: 10px; }
+@media (max-width: 700px) { .block-container { padding-top: 1.2rem; } h1 { font-size: 2rem !important; } }

@@ -1,0 +1,11 @@
+{
+  "ui": "passed",
+  "embedding": "real cached MiniLM, CPU",
+  "documents": 3,
+  "pages": 9,
+  "chunks": 9,
+  "query_top_source": "Northstar_Annual_Report.pdf:p1",
+  "live_llm": "not executed",
+  "browser_visual_review": "not executed",
+  "clear_documents": "passed"
+}

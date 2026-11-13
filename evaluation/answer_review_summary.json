@@ -1,0 +1,12 @@
+{
+  "review_method": "Codex agent inspected actual answers, gold facts and supplied evidence; not independent human review",
+  "reviewed_cases": 25,
+  "answered_cases_after_documented_recheck": 20,
+  "correctness_points": 39,
+  "correctness_max_points": 40,
+  "groundedness_points": 40,
+  "groundedness_max_points": 40,
+  "validated_evidence_quotes_after_recheck": 29,
+  "partial_case": "Q15 omits policy effective date",
+  "transient_error_rechecked": "Q01"
+}

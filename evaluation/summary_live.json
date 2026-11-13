@@ -1,0 +1,24 @@
+{
+  "recall_at_k": 1.0,
+  "hit_at_k": 1.0,
+  "reciprocal_rank": 0.9761904761904762,
+  "embedding": "sentence",
+  "live": true,
+  "questions": 25,
+  "retrieval_cases": 21,
+  "chunks": 9,
+  "top_k": 5,
+  "threshold": 0.3,
+  "executed_at": "2026-11-13T15:56:48.378683+00:00",
+  "model": "gemini-3.5-flash-lite",
+  "answer_status_counts": {
+    "answered": 19,
+    "clarification": 1,
+    "insufficient": 4,
+    "provider_or_pipeline_error": 1
+  },
+  "citation_validity": 1.0,
+  "citation_validity_cases": 19,
+  "unanswerable_correct": 1.0,
+  "unanswerable_correct_cases": 3
+}
