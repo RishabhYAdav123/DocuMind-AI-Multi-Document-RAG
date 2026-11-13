@@ -1,6 +1,7 @@
 """Integration smoke check with real cached MiniLM weights and Streamlit AppTest.
 
-Download/cache the model with run_evaluation.py first. This check makes no LLM calls.
+Download/cache the model with run_evaluation.py first. The default makes no LLM
+calls; --live exercises six actual Gemini conversations and uses API quota.
 """
 import json
 import argparse

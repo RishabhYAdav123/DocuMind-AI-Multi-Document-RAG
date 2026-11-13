@@ -1,12 +1,12 @@
 {
   "repository": "RishabhYAdav123/DocuMind-AI-Multi-Document-RAG",
-  "run_id": 43459239727,
-  "url": "https://github.com/RishabhYAdav123/DocuMind-AI-Multi-Document-RAG/actions/runs/43459239727",
-  "commit": "e92148b63c0846d843e05ed1d0006bcea3bb6264",
+  "run_id": 43460006466,
+  "url": "https://github.com/RishabhYAdav123/DocuMind-AI-Multi-Document-RAG/actions/runs/43460006466",
+  "commit": "5e54b62684746d6588cdd9374de58021bc11ed3d",
   "conclusion": "success",
   "tests_passed": 43,
-  "pytest_seconds": 2.18,
+  "pytest_seconds": 2.57,
   "dependency_check": "No broken requirements found",
   "runner": "ubuntu-latest, Python 3.12",
-  "note": "Initial successful run; setup action upgrades are being separately verified."
+  "note": "Updated official setup actions verified successfully; later documentation-only bookkeeping does not change runtime behavior."
 }
