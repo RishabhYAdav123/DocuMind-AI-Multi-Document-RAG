@@ -11,6 +11,7 @@ Date: 13 November 2026. Environment: Windows x64, Python 3.12.7. The existing wo
 | Fresh environment installation from earlier phase | Completed; exact versions retained in requirements-lock.txt |
 | Dependency compatibility | `pip check`: no broken requirements |
 | Final local Pytest suite | **43 passed in 5.53 seconds** |
+| Clean GitHub Linux runner | **43 passed in 2.18 seconds** on the initial source commit; dependency check passed |
 | Gemini model lookup | `models/gemini-3.5-flash-lite` accessible |
 | Structured Gemini generation | Passed with the locally configured key |
 | Real semantic retrieval | Recall@5 1.0000, Hit Rate@5 1.0000, MRR 0.9762 over 21 cases |

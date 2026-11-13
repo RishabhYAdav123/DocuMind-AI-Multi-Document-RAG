@@ -10,7 +10,9 @@ flowchart TD
   E --> F[Normalized vectors / FAISS IndexFlatIP]
   U --> Q[Question validation]
   H[Bounded session history] -. interpretation, never evidence .-> R[Gemini standalone query]
-  Q --> R
+  Q --> REF{Dependent reference?}
+  REF -- yes --> R
+  REF -- no --> QE
   R --> A{Reference clear?}
   A -- no --> CL[Ask for clarification]
   A -- yes --> QE[Query embedding]

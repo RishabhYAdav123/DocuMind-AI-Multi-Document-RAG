@@ -2,10 +2,10 @@
 
 ## 1. Title page
 
-**Assignment 3: Generative AI / Data Science Case Study**  
-Project: DocuMind AI  
-Submission date: 13 November 2026  
-Implementation: Python, Streamlit, Sentence Transformers, FAISS and Google Gemini  
+**Assignment 3: Generative AI / Data Science Case Study**
+Project: DocuMind AI
+Submission date: 13 November 2026
+Implementation: Python, Streamlit, Sentence Transformers, FAISS and Google Gemini
 Verification status: see [validation record](validation.md) for executed checks and remaining limitations.
 
 ## 2. Abstract

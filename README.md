@@ -1,5 +1,7 @@
 # DocuMind AI
 
+[Public GitHub repository](https://github.com/RishabhYAdav123/DocuMind-AI-Multi-Document-RAG)
+
 **Assignment 3 — Intelligent Multi-Document RAG System**
 
 Ask intelligent questions across your documents. DocuMind is a local Streamlit application that indexes multiple PDF reports with Sentence Transformers and FAISS, retrieves page-level evidence, and asks Google Gemini for a structured, cited answer. Conversation-aware query reformulation supports follow-ups such as “What about 2024?”
@@ -53,7 +55,9 @@ flowchart LR
   Normalize --> Split[Recursive chunks]
   Split --> Embed[Sentence Transformer CPU]
   Embed --> Index[Session FAISS index]
-  Question --> Rewrite[Gemini query reformulation]
+  Question --> Route{Dependent reference?}
+  Route -- yes --> Rewrite[Gemini query reformulation]
+  Route -- no --> Search
   History[Bounded conversation] -. interpret only .-> Rewrite
   Rewrite --> Search[Embed query and retrieve]
   Index --> Search
@@ -109,6 +113,8 @@ The default evaluation performs real Sentence Transformer/FAISS retrieval, witho
 Standalone questions go directly to retrieval. Pronouns and other dependent references trigger Gemini reformulation with bounded history. This avoids unnecessary clarification and reduces API usage. HTTP 429 responses respect a bounded provider retry hint (up to 60 seconds), with a 20-second fallback; one retry remains the limit. Service outages and quota exhaustion can still fail a request.
 
 Publication instructions and the public-data checklist are in [GitHub submission guide](docs/github_submission.md). GitHub Actions runs offline tests without API secrets.
+
+The public repository's clean Linux CI run also passed all 43 tests; see the [publication record](docs/publication.md). Live Streamlit AppTest passed six real Gemini cases plus both clear controls. **Submission readiness: READY**, subject to the documented small-corpus, answer-completeness and browser-visual-review limitations.
 
 Regenerate permitted data or the submission archive:
 
